@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Fridge:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Fridge_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Fridge" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: joda-time:joda-time:2.2" />
+          <element id="library" level="project" name="Gradle: org.json:json:20171018" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Fridge/web/Web" />
+    </root>
+  </artifact>
+</component>
